@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["../../templates/**/*.html"],
   theme: {
@@ -18,6 +18,9 @@ module.exports = {
         'Montserrat-Medium': ['Montserrat-Medium'],
       },
     },
+  },
+  daisyui: {
+    themes: ["light"],
   },
   plugins: [
     require("daisyui"),
